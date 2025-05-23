@@ -1,0 +1,27 @@
+"Releases"
+
+https://git.proxmox.com/?p=proxmox-ve.git;a=rss;h=refs/heads/master "Proxmox"
+https://github.com/BookStackApp/BookStack/releases.atom "Bookstack"
+https://github.com/Chocobozzz/PeerTube/releases.atom "Peertube"
+https://github.com/jellyfin/jellyfin/releases.atom "Jellyfin"
+https://github.com/PrivateBin/PrivateBin/releases.atom "PrivateBin"
+https://github.com/haiwen/seafile/releases.atom "Seafile"
+https://git.pleroma.social/pleroma/pleroma/-/releases.atom "Pleroma"
+https://github.com/root-gg/plik/releases.atom "Plik"
+https://github.com/go-gitea/gitea/releases.atom "Gitea"
+https://github.com/pystardust/ani-cli/releases.atom "ani-cli"
+
+"Blogs"
+
+https://blog.freespeechextremist.com/feed.rss "@P Blog"
+https://dataswamp.org/~solene/rss.xml "Solene"
+https://my.proxmox.com/index.php/en/announcements/tag/proxmox-ve/rss "Proxmox"
+
+"Chans"
+
+https://lainchan.org/%CE%A9/index.rss "Lainchan - /tech/"
+
+ 
+"Video Releases"
+
+https://www.conspiracydocumentaries.com/feed/ "Conspiracy Documentaries"
