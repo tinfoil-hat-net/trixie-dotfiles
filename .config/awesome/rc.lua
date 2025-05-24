@@ -254,8 +254,11 @@ globalkeys = gears.table.join(
 
 -- CUSTOM
 
-    awful.key({ modkey }, "l", function () awful.spawn("i3lock-fancy") end,
+    awful.key({ modkey }, "l", function () awful.spawn("i3lock --color 000000") end,
               {description = "lock screen", group = "custom"}),
+    awful.key({ modkey, "Shift" }, "l", function () awful.spawn("i3lock-fancy") end,
+              {description = "lock screen", group = "custom"}),
+
 
 --
 
@@ -291,7 +294,7 @@ globalkeys = gears.table.join(
         {description = "launch Element", group = "launcher"}),
      awful.key({ modkey, "Shift" }, "F4", function () awful.spawn("discord") end,
         {description = "launch Discord", group = "launcher"}),
-     awful.key({modkey }, "F5", function () awful.util.spawn_with_shell("~/Bilder/%Y-%m-%d_%H-%M-%S_screenshot.png") end),
+     awful.key({modkey }, "F5", function () awful.util.spawn_with_shell("scrot -s ~/Pictures/%Y-%m-%d_%H-%M-%S_screenshot.png") end),
      awful.key({modkey, "Shift" }, "F5", function () awful.util.spawn_with_shell("flameshot screen -n 2") end),
      awful.key({modkey }, "F6", function () awful.util.spawn_with_shell("pavucontrol") end),
 
@@ -496,6 +499,12 @@ awful.rules.rules = {
                      placement = awful.placement.no_overlap+awful.placement.no_offscreen
      }
     },
+    -- Rule for floating windows to be centered
+     { rule = { floating = true },
+        properties = {
+          placement = awful.placement.centered
+        }
+     },
 
     -- Floating clients.
     { rule_any = {
