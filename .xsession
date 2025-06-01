@@ -10,17 +10,20 @@ xrandr --output DisplayPort-0 --auto --output DisplayPort-1 --right-of DisplayPo
 
 # Desktop
 xrdb -load ~/.Xresources &
-feh --bg-scale ~/Pictures/road.jpg
 
 # Clipboard
 diodon &
 
 # App starter
 nm-applet &
+clipit &
 pnmixer &
 blueman-applet &
 seafile-applet &
 librewolf &
+
+# Scripts
+~/Software/scripts/sync_clipboard.sh &
 
 # Vars
 export EDITOR=vim
@@ -28,3 +31,6 @@ export BROWSER=librewolf
 
 # Start AwesomeWM
 exec /usr/bin/awesome
+
+# Wallpaper
+feh --bg-scale ~/Pictures/road.jpg

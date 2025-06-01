@@ -4,8 +4,10 @@ x-scheme-handler/https=librewolf.desktop
 text/html=librewolf.desktop
 image/png=gpicview.desktop
 image/jpeg=gpicview.desktop
+text/plain=org.xfce.mousepad.desktop
 
 [Added Associations]
 application/pdf=mupdf.desktop;
 image/jpeg=org.kde.kolourpaint.desktop;gpicview.desktop;
 image/png=gpicview.desktop;
+text/plain=org.xfce.mousepad.desktop;
