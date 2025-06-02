@@ -24,6 +24,7 @@ librewolf &
 
 # Scripts
 ~/Software/scripts/sync_clipboard.sh &
+~/Software/scripts/wallpaper_changer.sh &
 
 # Vars
 export EDITOR=vim
