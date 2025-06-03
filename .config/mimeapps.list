@@ -9,5 +9,5 @@ text/plain=org.xfce.mousepad.desktop
 [Added Associations]
 application/pdf=mupdf.desktop;
 image/jpeg=org.kde.kolourpaint.desktop;gpicview.desktop;
-image/png=gpicview.desktop;
+image/png=org.kde.kolourpaint.desktop;gpicview.desktop;
 text/plain=org.xfce.mousepad.desktop;
