@@ -297,6 +297,7 @@ globalkeys = gears.table.join(
      awful.key({modkey }, "F5", function () awful.util.spawn_with_shell("scrot -s ~/Pictures/%Y-%m-%d_%H-%M-%S_screenshot.png") end),
      awful.key({modkey, "Shift" }, "F5", function () awful.util.spawn_with_shell("flameshot screen -n 2") end),
      awful.key({modkey }, "F6", function () awful.util.spawn_with_shell("pavucontrol") end),
+     awful.key({modkey }, "F7", function () awful.util.spawn_with_shell("~/Software/scripts/wallpaper_shuffle.sh") end),
 
 
     -- Layout manipulation

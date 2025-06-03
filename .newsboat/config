@@ -1,6 +1,7 @@
 external-url-viewer "urlscan -dc -r 'linkhandler {$1}'"
 
 confirm-exit no
+confirm-mark-all-feeds-read no
 download-retries 2
 download-timeout 20
 use-proxy no

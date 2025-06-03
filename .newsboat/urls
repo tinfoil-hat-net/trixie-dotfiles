@@ -10,11 +10,13 @@ https://git.pleroma.social/pleroma/pleroma/-/releases.atom "Pleroma"
 https://github.com/root-gg/plik/releases.atom "Plik"
 https://github.com/go-gitea/gitea/releases.atom "Gitea"
 https://github.com/pystardust/ani-cli/releases.atom "ani-cli"
+https://github.com//blueprint-freespeech/ricochet-refresh/releases.atom "ricochet-refresh"
 
 "Blogs"
 
 https://blog.freespeechextremist.com/feed.rss "@P Blog"
 https://dataswamp.org/~solene/rss.xml "Solene"
+https://sizeof.cat/index.xml "sizeof.cat"
 https://my.proxmox.com/index.php/en/announcements/tag/proxmox-ve/rss "Proxmox"
 
 "Chans"
